@@ -1,3 +1,6 @@
+set(PICO_CXX_ENABLE_EXCEPTIONS 1)
+set(PICO_CXX_ENABLE_RTTI 1)
+
 # Add library cpp files
 add_library(PicoLed INTERFACE)
 target_sources(PicoLed INTERFACE
